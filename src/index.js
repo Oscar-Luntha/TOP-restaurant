@@ -1,3 +1,5 @@
 import "./style.css"
-console.log("Hello webpack set up succesfully")
-alert("Done")
+import { loadHomePage } from "./pageload"
+const contentDiv = document.querySelector("#content")
+contentDiv.appendChild(loadHomePage())
+
