@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#content{
+    padding-top: 30px;
+}
+header {
+    padding: 1rem 2rem;
+    background-color: #1f2933; 
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+nav button {
+    background: transparent;
+    border: none;
+    color: #f9fafb;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+}
+
+nav button:hover {
+    color: #fbbf24; 
+}
+nav button:focus {
+    outline: none;
+}
+nav button.active {
+    border-bottom: 2px solid #fbbf24;
+}
