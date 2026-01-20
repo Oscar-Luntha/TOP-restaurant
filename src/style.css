@@ -9,7 +9,9 @@ body {
 }
 header {
     padding: 1rem 2rem;
-    background-color: #1b1a17;; 
+    background-color: #1b1a17;
+    position: sticky;
+    top: 0;
 }
 
 nav {
