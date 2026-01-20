@@ -77,3 +77,66 @@ nav button.active {
 .contact-closing p:last-child {
     color: #a63a2b;
 }
+
+.menu {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 2.5rem 3rem;
+    background: #161512;
+    color: #e0dccb;
+    font-family: "Georgia", serif;
+    border: 1px solid #2f2a21;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.8);
+}
+
+.menu-section {
+    margin-bottom: 3rem;
+}
+
+.menu-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #d4b36a;
+    border-bottom: 1px solid #3d3425;
+    padding-bottom: 0.5rem;
+    letter-spacing: 0.05em;
+}
+
+.menu-item {
+    margin-bottom: 1.8rem;
+    padding-left: 1rem;
+    border-left: 2px solid #5a4b2c;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #f0e6c8;
+}
+
+.menu-item p {
+    margin: 0.3rem 0 0.4rem;
+    font-size: 0.95rem;
+    color: #c7c0a8;
+    line-height: 1.6;
+}
+
+.menu-price {
+    font-size: 0.9rem;
+    color: #b89b5e;
+    font-style: italic;
+}
+
+.menu::before {
+    content: "";
+    display: block;
+    height: 6px;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(
+        to right,
+        transparent,
+        rgba(212, 179, 106, 0.2),
+        transparent
+    );
+}
+
