@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-#content{
-    padding-top: 30px;
+body {
+    background-color: #6b5b3e;
 }
 header {
     padding: 1rem 2rem;
-    background-color: #1f2933; 
+    background-color: #1b1a17;; 
 }
 
 nav {
@@ -28,11 +29,51 @@ nav button {
 }
 
 nav button:hover {
-    color: #fbbf24; 
+    color:#a63a2b; 
 }
 nav button:focus {
     outline: none;
 }
 nav button.active {
-    border-bottom: 2px solid #fbbf24;
+    border-bottom: 2px solid #a63a2b;
+}
+.contact {
+    max-width: 700px;
+    margin: 3rem  auto;
+    padding: 2rem 2.5rem;
+    background: #1b1a17;
+    color: #e6e2d3;
+    font-family: "MedievalSharp", cursive;
+    line-height: 1.7;
+    border: 1px solid #3a3328;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.contact-intro {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #d6c79a;
+}
+
+.contact-rules p {
+    margin: 0.4rem 0;
+    padding-left: 1rem;
+    border-left: 2px solid #6b5b3e;
+    font-style: italic;
+    color: #cfc7b3;
+}
+
+.contact-location {
+    margin: 2rem 0;
+    color: #bfb8a4;
+}
+
+.contact-closing p {
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.contact-closing p:last-child {
+    color: #a63a2b;
 }
